@@ -13,8 +13,6 @@ let package = Package(
         .target(
             name: "SVGgh",
             dependencies: [],
-            path: "SVGgh",
-            exclude: ["SVGgh-Prefix.pch", "Info.plist"],
             cSettings: [
                 .headerSearchPath("Includes"),
             ])
